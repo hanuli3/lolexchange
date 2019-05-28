@@ -1,0 +1,10 @@
+INSERT INTO `dividend` (stock_id, value) VALUES (Zeros,56.816318163181634);
+INSERT INTO `dividend` (stock_id, value) VALUES (Meliodas,59.95284952849529);
+INSERT INTO `dividend` (stock_id, value) VALUES (Naul,64.10414104141041);
+INSERT INTO `dividend` (stock_id, value) VALUES (BigKoro,61.92086920869209);
+INSERT INTO `dividend` (stock_id, value) VALUES (Palette,57.41082410824108);
+INSERT INTO `dividend` (stock_id, value) VALUES (BOSS,30.842558425584258);
+INSERT INTO `dividend` (stock_id, value) VALUES (AHaHaCiK,33.05658056580566);
+INSERT INTO `dividend` (stock_id, value) VALUES (Nomanz,24.507995079950803);
+INSERT INTO `dividend` (stock_id, value) VALUES (Gadget,18.57318573185732);
+INSERT INTO `dividend` (stock_id, value) VALUES (SaNTaS,31.85731857318573);

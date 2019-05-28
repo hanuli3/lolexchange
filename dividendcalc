@@ -1,0 +1,15 @@
+const csv = require('csvtojson')
+function readTrainingData(path) {
+    return csv().fromFile(path).then((jsonObj) => {
+        let lcsMatches = [];
+        jsonObj.forEach(match => {
+            if (match.league === 'LCS') {
+                lcsMatches.push(match);
+            }
+        });
+        return lcsMatches;
+    });
+}
+readTrainingData('./data.csv').then((data)=>{
+    console.log(data.length)
+});
